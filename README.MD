@@ -44,3 +44,14 @@ The **frequency table** as a list of all possible values of variable with approp
 | Ginger | 1 | 10 | 100 |
 | Total | 10 | 100 | 100 |
 
+## 3. Graphs
+
+In a **pie chart**, the surface of the slices represent percentages of observations in each category.
+
+Pros: we can see a percentage immediately.
+
+The height of the bars in a **bar graph** represent the percentages of observations in each category.
+
+Pros: easy to retrieve exact number and it can represent high numbers of categories.
+
+Bars in the **histogram** touch each other and this touching represents that the values of an interval ratio variable represent an underlying continuous scale.
