@@ -1,6 +1,6 @@
 # Basic statistic cheatsheet
 
-## Cases, variables and levels of measurement
+## 1. Cases, variables and levels of measurement
 
 Any data set is consists of **cases**: the objects in the collection. Each case has one or more attributes or qualities, called **variables**. This word “variable” emphasizes that it is differences or variation that is often of primary interest. Cases are something or someone for study. Variables are characteristics of something or someone.
 
@@ -24,4 +24,23 @@ The method which we employ to analyze data depends on levels of measurement.
 |              | Ordinal  | + | + | - | - |
 | Quantitative | Interval | + | + | + | - |
 |              | Ratio    | + | + | + | + |
+
+## 2. Data matrix and frequency table
+
+The **data matrix** is a table with all values of variables for each case. So, it's source of all data for analysis.
+
+|            | Age | Salary |
+|---|---|---|
+| Worker #1 | 20 | 2 000 |
+| Worker #2 | 30 | 3 000  |
+| Worker #3 | 40 | 4 000 |
+
+The **frequency table** as a list of all possible values of variable with appropriate **percentage** and **cumulative percentage**.
+
+| Hair color | Frequency | Percentage (%) | Cumulative percentage (%)
+|---|---|---|
+| Blond | 3 | 30 | 30 |
+| Black | 6 | 60  | 90 |
+| Ginger | 1 | 10 | 100 |
+| Total | 10 | 100 | 100 |
 
