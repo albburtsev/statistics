@@ -63,3 +63,19 @@ The **mode** is a value, that occurs most frequently (the most common outcome). 
 The **median** is a middle value of your observation when they are ordered from the smallest to the largest.
 
 The **mean** is a sum of all values divided by the number of observations.
+
+## 5. Range, interquartile range, outliers and box plot
+
+The **range** is a measure of variability, that calculates as a difference between highest and lowest value.
+
+The **interquartile range** is the distance between third and first quartile (IQR = Q3 — Q1), where quartiles are
+
+```
+mim .. Q1 .. Q2 .. Q3 .. max (where Q2 is the same as a median)
+```
+
+The main advantage of IQR, that it not affected by outliers.
+
+The **outliers** are the values which lower than `Q1 - 1.5 * IQR` or higher than `Q3 + 1.5 * IQR`.
+
+The **box plot** shows important aspects of distribution in a compact way, using three quartiles, the outliers, and the range of the data after removing the outliers.
