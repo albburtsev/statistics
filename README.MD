@@ -79,3 +79,17 @@ The main advantage of IQR, that it not affected by outliers.
 The **outliers** are the values which lower than `Q1 - 1.5 * IQR` or higher than `Q3 + 1.5 * IQR`.
 
 The **box plot** shows important aspects of distribution in a compact way, using three quartiles, the outliers, and the range of the data after removing the outliers.
+
+## 6. Variance and standard deviation
+
+The **variance** (дисперсия) measures how far a set of numbers are spread out.
+
+Formula:
+
+```
+S^2 = SUM((x[i] - mean)^2) / (n - 1)
+```
+
+The larger the variance, the large the variability.
+
+The **standard deviation** is a squared root of the variance.
