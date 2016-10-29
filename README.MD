@@ -55,3 +55,11 @@ The height of the bars in a **bar graph** represent the percentages of observati
 Pros: easy to retrieve exact number and it can represent high numbers of categories.
 
 Bars in the **histogram** touch each other and this touching represents that the values of an interval ratio variable represent an underlying continuous scale.
+
+## 4. Measures of central tendency
+
+The **mode** is a value, that occurs most frequently (the most common outcome). The pie chart makes it immediately clear what the mode is.
+
+The **median** is a middle value of your observation when they are ordered from the smallest to the largest.
+
+The **mean** is a sum of all values divided by the number of observations.
