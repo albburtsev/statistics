@@ -93,3 +93,21 @@ S^2 = SUM((x[i] - mean)^2) / (n - 1)
 The larger the variance, the large the variability.
 
 The **standard deviation** is a squared root of the variance.
+
+## 7. Z-score (standard score)
+
+The **Z-score** is the signed number of standard deviations an observation. It's help to answer is a specific observation is common or exceptional.
+
+Formula:
+
+```
+Z = (x - mean) / S
+```
+
+Bell-shaped distribution criteria:
+
+ * `68%` of the observations in interval [mean - 1s, mean + 1s]
+ * `95%` of the observations in interval [mean - 2s, mean + 2s]
+ * `99%` of the observations in interval [mean - 3s, mean + 3s]
+
+ **Standardization** means to replace the original scores by standard deviation from the mean. After that it's easy to see whether a specific score is relatively common or exceptional.
