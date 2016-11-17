@@ -149,4 +149,40 @@ mean(planets$diameter)
 
 median(planets$diameter)
 # 2.4415
+
+sort(planets$diameter)
+# 0.382  0.532  0.949  1.000  3.883  4.007  9.449 11.209
+
+sort(planets$diameter, decreasing=TRUE)
+# 11.209  9.449  4.007  3.883  1.000  0.949  0.532  0.382
+
+# sort in composition with table helps to find mode
+sort(table(c("a", "a", "a", "b", "b", "c")), decreasing=TRUE)
+# a b c 
+# 3 2 1
+
+range(planets$diameter)
+# 0.382 11.209
+
+min(planets$diameter)
+# 0.382
+
+max(planets$diameter)
+# 11.209
+
+# Easy to calculate quartiles
+quantile(planets$diameter)
+#      0%      25%      50%      75%     100% 
+# 0.38200  0.84475  2.44150  5.36750 11.20900
+
+# Make a boxplot of qsec
+boxplot(planets$diameter)
+
+# Calculate the interquartile range of qsec
+IQR(planets$diameter)
+# 4.52275
+
+# Calculate standard deviation
+sd(planets$diameter)
+4.226738
 ```
