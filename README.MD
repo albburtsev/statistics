@@ -111,3 +111,29 @@ Bell-shaped distribution criteria:
  * `99%` of the observations in interval [mean - 3s, mean + 3s]
 
  **Standardization** means to replace the original scores by standard deviation from the mean. After that it's easy to see whether a specific score is relatively common or exceptional.
+
+## Correlation
+
+There are two basic ways to display data for understanding correlation between two independent variables. A **contingency table** (*таблица сопряжённости*), enables you to display the relationship between two ordinal or nominal variables. For quantitative variables a **scatterplot** (*диаграмма рассеяния или точечная диаграмма*) is more appropriate.
+
+| Body weight \ chocolate consumption | <50      | 50-150   | >150     |     |
+|-------------------------------------|----------|----------|----------|----:|
+| <50                                 | 27 (45%) | 5 (5%)   | 1 (2%)   | 33  |
+| 50-69                               | 24 (40%) | 35 (39%) | 2 (4%)   | 61  |
+| 70-89                               | 6 (10%)  | 43 (48%) | 19 (38%) | 68  |
+| >90                                 | 3 (5%)   | 7 (8%)   | 28 (56%) | 38  |
+| total                               | 60       | 60       | 50       | 200 |
+
+![Scatterplot example](images/scatter.png?raw=true)
+
+The scatterplot shows at a glance that there is a strong correlation between the two variables. But how strong is this correlation?
+
+One of the most important advantages of the **Pearson's r** (*линейный коэффициент корреляции или коэффициент корреляции Пирсона*), is that it expresses the direction and strength of the linear correlation between two variables with one single number.
+
+Formula:
+
+```
+sum(Z<sub>x</sub> * Z<sub>y</sub>) / n - 1
+```
+
+Pearson's r is always a number between -1 and 1. Minus one refers to a perfect negative correlation, and plus one to a perfect positive correlation. And zero means that there is no correlation at all.
